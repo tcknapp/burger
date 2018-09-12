@@ -3,20 +3,38 @@
 
     <h1>BURGER ME!</h1>
     <img src="../assets/img/burgerimg.png">
-    <h3>Make a Burger, Eat a Burger</h3>
+    <h2>Make a Burger, Eat a Burger</h2>
 
   </div>
 </div>
 <div class="container">
+  <div class="row text-center">
+    <div class="col-xs-12">
+
+      <!--Add Burger Form-->
+      <h3>Make Burger</h3>
+
+      <form class="create-form">
+        <div class="form-group">
+          <input type="text" id="burg" name="name" placeholder="Add Burger">
+        </div>
+        <button type="submit" class="btn btn-danger btn-lg">Create Burger</button>
+      </form>
+</div>
+
+    </div>
+
+  </div>
+
   <!--To Devour-->
   <div class="row text-center">
     <div class="col-xs-6">
-      <h2>Burgers to Devour</h2>
+      <h2>Burgers Waiting...</h2>
       <!--HB-->
       <ul>
         {{#each burgers}}
         {{#unless devoured}}
-        {{> burgers/burger-block devoured=true }}
+       <p> {{> burgers/burger-block devoured=true }} </p>
         {{/unless}}
         {{/each}}
       </ul>
@@ -26,7 +44,7 @@
 
     <!--Already Devoured-->
     <div class="col-xs-6">
-      <h2>Burgers eaten!</h2>
+      <h2>Burgers Devoured!</h2>
       <!--HB-->
       <ul>
         {{#each burgers}}
@@ -38,18 +56,5 @@
 
     </div>
   </div>
-
-    <div class="row text-center"></div>
-    <!--Add Burger Form-->
-    <h2>Add Burger</h2>
-    <form class="create-form">
-
-      <div class="form-group">
-        <label for="burg">Burger Name:</label>
-        <input type="text" id="burg" name="name">
-      </div>
-
-      <button type="submit">Add Burger</button>
-    </form>
-  </div>
-</div>
+</div> <br><br>
+<footer class="container-fluid text-center">2018</footer>
