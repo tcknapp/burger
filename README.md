@@ -7,9 +7,9 @@ In this assignment, you'll create a burger logger with MySQL, Node, Express, Han
 All the recommended files and directories from the steps above should look like the following structure:
 
 .
-├── config
-│   ├── connection.js
-│   └── orm.js
+├── config 
+│   ├── connection.js 
+│   └── orm.js 
 │ 
 ├── controllers
 │   └── burgers_controller.js
