@@ -5,6 +5,10 @@ In this assignment, you'll create a burger logger with MySQL, Node, Express, Han
 
 # Directory structure
 All the recommended files and directories from the steps above should look like the following structure:
+<<<<<<< HEAD
+=======
+
+>>>>>>> 857958ad9da0ad23a40a2b1cc2e97d0a2a915258
 .
 ├── config 
 │   ├── connection.js 
