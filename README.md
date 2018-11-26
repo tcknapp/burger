@@ -3,6 +3,8 @@
 # Overview
 In this assignment, you'll create a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!). Be sure to follow the MVC design pattern; use Node and MySQL to query and route data in your app, and Handlebars to generate your HTML.
 
+- - -
+
 # Directory structure
 All the recommended files and directories from the steps above should look like the following structure:  
 
@@ -38,5 +40,15 @@ All the recommended files and directories from the steps above should look like 
     ├── index.handlebars  
     └── layouts  
         └── main.handlebars  
+        
+- - -        
+        
+### Technologies Used
+* MySQL 
+* Node 
+* Express 
+* Handlebars
+* ORM
+ 
 
 
